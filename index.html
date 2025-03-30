@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Registration</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <ol type="I">
+        <li>Mangoes</li>
+        <li>Bananas</li>
+        <li>Pineapples</li>
+        <li>Oranges</li>
+        <li>Ovacados</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <img src="https://www.pexels.com/photo/sample-image.jpg" alt="Sample Image from Pexels">
+
+    <!-- Contact Table -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>123-456-7890</td>
+                <td>john@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Elm St</td>
+                <td>987-654-3210</td>
+                <td>jane@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>789 Pine St</td>
+                <td>555-123-4567</td>
+                <td>michael@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>321 Oak St</td>
+                <td>444-789-1234</td>
+                <td>emily@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Green</td>
+                <td>654 Cedar St</td>
+                <td>333-222-1111</td>
+                <td>david@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+
+        <!-- Dropdown Menu -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+        </select>
+        <br>
+        
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br>
+        
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br>
+        
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
